@@ -24,3 +24,4 @@ toml==0.10.2
 typing_extensions==4.12.2
 tzdata==2025.1
 zipp==3.20.2
+psycopg-binary==3.2.6
