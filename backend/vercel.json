@@ -4,9 +4,7 @@
         "src": "backend/wsgi.py", 
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "50mb" },
-            "env": {
-        "PYTHON_VERSION": "3.10"
-        }
+       
       }
     ],
     "routes": [
