@@ -6,6 +6,7 @@ from django.conf import settings
 
 
 class CustomUser(AbstractUser):
+    id = models.UUIDField(default=uuid.uuid4, primary_key=True)
     full_name = models.CharField(max_length=255)
     profile_image = models.ImageField(upload_to='profile_images/', blank=True, null=True)
     balance = models.DecimalField(max_digits=10, decimal_places=2, default=10000.00)
