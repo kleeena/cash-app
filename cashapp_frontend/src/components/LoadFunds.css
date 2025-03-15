@@ -1,0 +1,120 @@
+body{
+    display: flex;
+}
+
+.frame-350 {
+    display: flex;
+    position: relative;
+    width: 1488px;
+    height: 60px;
+    top: 120px;
+    left: 60px;
+    
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+
+.frame-350 h2 {
+    position: relative;
+    width: 440px;
+    height: 60px;
+    
+}
+
+.frame-350 div {
+    position: relative;
+    width: 1161px;
+    height: 3px;
+    background-color: #1F1F1F;
+    right: 60px;
+}
+
+.receiving-details{
+    align-self: flex-start;
+    position: relative;
+    left: 266px;
+    top: 184px;
+    width: 760px;
+    height: 240px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+    
+}
+
+.receiving-container{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    width: 756px;
+    height: 179px;
+    border: solid;
+    border-width: 2px;
+    border-color: #4D4D4D;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.group-414 {
+    position: relative;
+    width: 139px;
+    height: 139px;    
+    margin-top: 18px;
+    margin-left: 41px;
+}
+
+.group-414 > p:nth-last-of-type(1){
+    position: relative;
+    bottom: 10px;
+}
+
+.group-413 {
+    position: relative;
+    margin-left: 41px;
+    bottom: 30px;
+    width: 201px;
+    height: 58px;
+   
+    
+}
+
+.group-413 > p:nth-last-of-type(1){
+    position: relative;
+    bottom: 10px;
+}
+
+.rectangle-69 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 216px;
+    height: 174px;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    
+    border-radius: 10px;
+    overflow: revert;
+    border-color: #4D4D4D;
+    border: 1px solid #4D4D4D;
+    
+}

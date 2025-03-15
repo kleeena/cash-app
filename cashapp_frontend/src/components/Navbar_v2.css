@@ -1,0 +1,83 @@
+.navbar-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    height: 58px; 
+}
+
+.navbar {
+    width: 1376px;
+    height: 58px;
+
+   
+}
+
+.user-info {
+    width: 166px;
+    height: 58px;
+    color: #FFFFFF;
+    
+}
+
+.profile-img-container {
+    position: relative;;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: brown;
+    background-image: url("assets/Navbar_2/sample_profileimg.jpg");
+    
+}
+
+#greeting {
+    color: #FFFFFF;
+    position: relative;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    width: 90px;
+    height: 18px;
+    top: -25px;
+    left: 72px;
+}
+
+#username-txt{
+    color: #FFFFFF;
+    position: relative;
+    width: 76px;
+    height: 24px;
+    font-family: Poppins;
+    font-weight: 500;
+    top: -68%;
+    left: 74px;
+    line-height: 24px;
+    
+}
+
+.menu-container {
+    display: flex;
+    position: relative;
+    width: 337px;
+    height: 38px;
+    top: -48px;
+    left: 998px;
+    gap: 45px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu-container button{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 27px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+

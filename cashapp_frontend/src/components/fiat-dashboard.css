@@ -1,0 +1,221 @@
+body {
+    display: flex;
+}
+
+.frame-349 {
+    display: flex;
+    position: relative;
+    width: 1488px;
+    height: 60px;
+    top: 120px;
+    left: 60px;
+    
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+
+.frame-349 h2 {
+    position: relative;
+    width: 440px;
+    height: 60px;
+    
+}
+
+.frame-349 div {
+    position: relative;
+    width: 1161px;
+    height: 3px;
+    background-color: #1F1F1F;
+    right: 60px;
+}
+
+.container-1{
+    position: relative;
+    display: flex;
+    top: 166px;
+    left: 254px;
+    align-self: flex-start;
+    width: 1420px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-1 {
+    flex-shrink: 0;
+    position: relative;
+    width: 448px;
+    height: 196px;
+    border-radius: 8px;
+    background-color: #292929;
+    margin-top: 0;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    
+}
+
+.balance-type{
+    position: relative;
+    width: 63px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.balance-amount {
+    position: relative;
+    width: 163px;
+    height: 75px;   
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0%;
+    
+}
+
+.card-1 img {
+    position: relative;
+    bottom: 100px;
+    margin-right: 0px;
+    margin-left: 356px;
+}
+
+.account-container {
+    display: flex;
+    width: 879px;
+    height: 142px;
+    margin-top: 0;
+    
+    margin-right: 0;
+    position: relative;
+    right: 30px;
+    color: #FFFFFF;
+    
+}
+.account-container > div > p:first-of-type{
+    margin-top: 0;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+
+}
+.account-container > div > p:nth-of-type(2){
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    bottom: 18px;
+    position: relative;
+    
+    
+
+}
+
+.account-id {
+    width: 87px;
+    height: 57px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+}
+
+.account-id p:first-of-type{
+    margin-top: 0;
+}
+.account-id p:nth-of-type(2){
+    position: relative;
+    bottom: 18px;
+}
+
+.account-period {
+    position: absolute;
+    width: 241px;
+    height: 62px;
+    align-self: flex-end;
+    margin-left: 0px;
+
+    
+}
+
+.account-starting-balance{
+        position: absolute;
+        margin-left: 332px;
+        width: 133px;
+        height: 57px;
+        
+}
+
+.account-ending-balance{
+    position: absolute;
+    margin-left: 332px;
+    width: 124px;
+    height: 57px;
+    align-self: flex-end;
+    
+}
+
+.account-total-added{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 97px;
+    height: 57px;
+    align-self: flex-start;
+    
+}
+
+.account-total-subtracted{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 134px;
+    height: 57px;
+    align-self: flex-start;
+    
+}
+
+.line-2 {
+    position: relative;
+    width: 1376px;
+    height: 2px;
+    background-color: #1F1F1F;
+    top: 230px;
+}
+
+.container-2 {
+    display: flex;
+    align-self: flex-start;
+    position: relative;
+    width: 1410px;
+    height: 34px;
+    left: 256px;
+    top: 250px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFFFF;
+    
+}

@@ -1,0 +1,178 @@
+/* Style the div with class div-1 */
+@font-face {
+    font-family: 'Grifter';
+    src: url('assets/grifter-bold/grifter-bold.otf') format("opentype");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.div-1 {
+  --rem: 16;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 416px;
+  height: 290px;
+  top: 153px;
+  right: 15px;
+  color: white;
+  left: 12%;
+
+    
+  }
+  
+  /* Style the h1 inside div-1 */
+  .div-1 h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: Grifter;
+    font-size: 52px;
+  }
+  
+  /* Style the p inside div-1 */
+  .div-1 p {
+    --rem: 16;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    left: 16px;
+    position: relative;
+  }
+  
+  /* Style the button with class download_btn inside div-1 */
+  .div-1 .download_btn {
+    --rem: 16;
+    background-color: #121212;
+    color: white;
+    padding: 10px 20px;
+    font-family: Poppins;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 293px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: relative;
+    left: -39px;
+
+
+  }
+
+.div-2 {
+  position: absolute;
+  top: -2%;
+  left: 2%;
+}
+
+#ellipse-3 {
+  top: 203px;
+  left: 944px;
+  position: absolute;
+  
+}
+
+#ellipse-4 {
+    position: absolute;
+    top: 183px;
+    left: 924px;
+    
+  }
+
+#ellipse-5{
+  position: absolute;
+  top: 166px;
+  left: 904px;
+    
+}
+
+#vector {
+  position: absolute;
+  top: 480px;
+  left: 1330px;
+  
+}
+
+#vector-1 {
+  position: absolute;
+  top: 661.07px;
+  left: 1426.9px;
+  
+}
+
+#rectangle-1 {
+  position: absolute;
+  top: 132px;
+  left: 1312px;
+  
+}
+
+#iphone-1 {
+  position: absolute;
+  top: 153.01px;
+  left: 1094.45px;
+}
+
+#iphone-2 {
+  position: absolute;
+  top: 307.98px;
+  left: 859.11px;
+  
+  
+}
+
+#group-350 {
+position: absolute;
+  top: 81px;
+  left: 1164.87px;
+
+  
+}
+
+#group-349{
+  position: absolute;
+  top: 146.32px;
+  left: 907px;
+
+  
+}
+
+#rectangle-3-blur {
+position: absolute;
+  top: 614px;
+  left: 1090px;
+  
+}
+
+#rectangle-blur {
+  position: absolute;
+  top: 431px;
+  left: 774px;
+  
+}
+
+#rectangle-2-cone {
+  position: absolute;
+  top: 758.52px;
+  left: 1359.54px;
+}
+
+#group {
+  position: absolute;
+  top: 670.84px;
+  left: 868.09px;
+  
+}
+
+#group-359 {
+  position: absolute;
+  top: 768px;
+  left: 205px;
+  
+}

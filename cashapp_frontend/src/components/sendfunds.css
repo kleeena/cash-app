@@ -1,0 +1,160 @@
+#root {
+  width: 100%;
+}
+
+.root {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins";
+  gap: 50px;
+}
+
+.frame-1 {
+  align-items: center;
+  display: flex;
+  gap: 52px;
+  position: relative;
+  width: 1488px;
+}
+
+.frame-1 .line-stroke {
+    height: 3px;
+    width: 1200px;
+    background: #1F1F1F;
+
+} 
+
+.frame-1 .text-wrapper {
+  color: #ffffff;
+  
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.select-payment {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 30px; font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  align-self: start;
+  margin-left: 10%;
+
+  
+}
+
+.frame-353{
+  display: flex;
+  width: 201px;
+  padding: 20px 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #24A405;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10%;
+  align-self: flex-start; 
+}
+
+.line-stroke-2 {
+  width: 1376px;
+  height: 3px;
+  flex-shrink: 0;
+  background-color: #1F1F1F;
+}
+
+.field-container {
+  width: 80%;
+  display: flex;
+  gap: 15%;
+}
+
+.field-container div {
+    align-self: center;
+    position: relative;
+    bottom: 10px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+.field-container div input {
+  width: 332px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #4D4D4D;
+  background: none;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5%;
+  
+}
+
+.payee-select select {
+  width: 332px;
+  height: 58px;
+  border-radius: 10px;
+  border: 1px solid #4D4D4D;
+  background: none;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5%;
+  cursor: pointer;
+}
+
+.payee-select select:focus{
+  background-color: #1F1F1F;
+}
+
+.field-container div input::placeholder {
+  color: #4D4D4D;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.send-btn-1 {
+  width: 448px;
+  height: 93px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #EA6262;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: flex-start;
+  margin-left: 10%;
+  cursor: pointer;
+}
