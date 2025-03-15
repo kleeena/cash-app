@@ -9,5 +9,7 @@
           "src": "/(.*)",
           "dest": "backend/wsgi.py"
       }
-  ]
+  ],
+
+  "rewrites": [{ "source": "static/(.*)", "destination": "static/$1" }]
 }
