@@ -101,11 +101,11 @@ DATABASES = {
 
         'USER': 'postgres',
 
-        'PASSWORD': 'rFUnKWsJAWmRsPIaDdDjXYNInMKLEnYH',
+        'PASSWORD': 'iVFcpbTpJSjdAgNZtHjrgDixfWVmrAaz',
 
-        'HOST': 'shinkansen.proxy.rlwy.net',
+        'HOST': 'metro.proxy.rlwy.net',
 
-        'PORT': '27588',
+        'PORT': '44967',
     
 
     }
