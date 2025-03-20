@@ -38,7 +38,7 @@ class UserSerializer(serializers.ModelSerializer):
         return obj.balance  # Always returns the latest balance
 
 class RegisterSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True, min_length=6)
+    password = serializers.CharField(write_only=True)
 
     class Meta:
         model = CustomUser
