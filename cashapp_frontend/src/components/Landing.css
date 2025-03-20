@@ -1,7 +1,7 @@
 /* Style the div with class div-1 */
 @font-face {
     font-family: 'Grifter';
-    src: url('assets/grifter-bold/grifter-bold.otf') format("opentype");
+    src: url('grifter-bold/grifter-bold.otf') format("opentype");
 }
 
 body {
