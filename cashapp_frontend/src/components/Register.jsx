@@ -19,7 +19,7 @@ function Register() {
         e.preventDefault();
 
         try {
-            const response = await axios.post('${import.meta.env.VITE_API_BASE_URL}/users/register/', {
+            const response = await axios.post('https://cash-app-backend-eight.vercel.app/users/register/', {
                 username,
                 password,
                 full_name: username,      
