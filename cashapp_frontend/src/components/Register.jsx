@@ -32,6 +32,21 @@ function Register() {
             }
         } catch (error) {
             setError("Registration failed. Please check your details.");
+            if (error.response) {
+                // Server responded with a status code outside 2xx
+                console.error("Response Data:", error.response.data);
+                console.error("Status Code:", error.response.status);
+                console.error("Headers:", error.response.headers);
+                setError(error.response.data?.message || "Registration failed. Please check your details.");
+            } else if (error.request) {
+                // Request was made but no response received
+                console.error("No response received:", error.request);
+                setError("No response from server. Please try again later.");
+            } else {
+                // Something else caused an error
+                console.error("Request Error:", error.message);
+                setError("An unexpected error occurred.");
+            }
         }
     };
 
