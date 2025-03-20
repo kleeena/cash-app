@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://127.0.0.1:8000/"; // Django backend URL
+const API_BASE_URL = "https://cash-app-backend-eight.vercel.app"; // Django backend URL
 
 const api = axios.create({
   baseURL: API_BASE_URL,

@@ -23,7 +23,7 @@ function Dashboard() {
                     return;
                 }
 
-                const response = await axios.get("http://127.0.0.1:8000/users/profile", {
+                const response = await axios.get("https://cash-app-backend-eight.vercel.app/users/profile", {
                     headers: { Authorization: `Bearer ${token}` },
                 });
 

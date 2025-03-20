@@ -11,7 +11,7 @@ function Transaction() {
             setLoading(true);
             try {
                 const token = localStorage.getItem("access_token");
-                const response = await axios.get("http://127.0.0.1:8000/transactions/history/", {
+                const response = await axios.get("https://cash-app-backend-eight.vercel.app/transactions/history/", {
                     headers: { Authorization: `Bearer ${token}` },
                 });
                 const sortedTransactions = response.data.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));

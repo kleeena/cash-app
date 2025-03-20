@@ -22,7 +22,7 @@ function SendFund() {
     useEffect(() => {
         const fetchPayees = async () => {
             try {
-                const response = await axios.get("http://localhost:8000/users/payees/", {
+                const response = await axios.get("https://cash-app-backend-eight.vercel.app/users/payees/", {
                     headers: { Authorization: `Bearer ${localStorage.getItem("access_token")}` }
                 });
                 setPayees(response.data);  // Store fetched payees in state
@@ -60,7 +60,7 @@ function SendFund() {
             }
 
             const response = await axios.post(
-                "http://127.0.0.1:8000/transactions/send-money/",
+                "https://cash-app-backend-eight.vercel.app/transactions/send-money/",
                 {
                     recipient_id: recipientId,
                     amount: amount,
@@ -71,7 +71,7 @@ function SendFund() {
             );
 
             // ✅ Check if recipientId exists in the database
-        const checkResponse = await axios.get(`http://localhost:8000/users/check-account/${recipientId}/`, {
+        const checkResponse = await axios.get(`https://cash-app-backend-eight.vercel.app/users/check-account/${recipientId}/`, {
             headers: { Authorization: `Bearer ${token}` }
         });
 
