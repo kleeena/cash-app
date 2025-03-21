@@ -55,7 +55,7 @@ body{
 }
 
 .receiving-container{
-    color: #FFFFFF;
+    color: #fff;
     font-family: Poppins;
     font-weight: 400;
     font-size: 16px;
@@ -65,10 +65,10 @@ body{
     height: 179px;
     border: solid;
     border-width: 2px;
-    border-color: #4D4D4D;
-    flex-direction: column;
+    border-color: #4d4d4d;
     align-content: flex-start;
     align-items: flex-start;
+    flex-direction: row;
     
 }
 
@@ -86,11 +86,16 @@ body{
 }
 
 .group-413 {
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     position: relative;
-    margin-left: 41px;
-    bottom: 30px;
     width: 201px;
     height: 58px;
+    left: 110px;
+    top: 16px;
    
     
 }
